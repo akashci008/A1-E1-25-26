@@ -22,7 +22,7 @@ def tsp_nearest_neighbor(cost):
         total_cost += min_dist
         current = nearest
 
-    # return to starting city
+ 
     total_cost += cost[current][0]
     path.append(0)
 
